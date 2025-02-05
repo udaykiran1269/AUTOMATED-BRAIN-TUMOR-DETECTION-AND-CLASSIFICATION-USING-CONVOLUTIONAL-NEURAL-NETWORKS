@@ -1,0 +1,106 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+p {
+    margin: 10px;
+}
+
+.image-container {
+    margin: 20px;
+}
+
+.uploaded-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "Predicted class" element */
+/* Style the "Predicted class" element with a different font and size */
+p.result {
+     font-family:  monospace; /* Change 'Your Desired Font' to the desired programming font */
+    font-size: 30px; /* Adjust the font size to your preference */
+    font-weight: bold;
+    color: #007BFF;
+    background-color: #E3E3E3;
+    padding: 10px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    text-align: center;
+    }
+
+
+/* Style the container of the "Predicted class" element */
+.results-container {
+    margin-top: 20px; /* Add some spacing above the result */
+    border: 1px solid #007BFF; /* Add a border to the container */
+    border-radius: 10px;
+    padding: 15px; /* Increase padding for better separation */
+    background-color: #fff; /* Set the background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.results-list {
+    list-style-type: decimal;
+    padding: 0;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.results-list li {
+    padding: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.results-list li:nth-child(odd) {
+    background-color: #007BFF;
+    color: black;
+}
+
+.results-list li:nth-child(even) {
+    background-color: #00EEEF;
+    color: black;
+}
